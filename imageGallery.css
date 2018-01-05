@@ -1,0 +1,150 @@
+html
+{
+	height: 100%;
+}
+
+
+body
+{
+	height: 100%;
+    margin: 0;
+	background: linear-gradient(to bottom, #f2fcfe,#1c92d2 );
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+
+	/*font*/
+
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.2em;
+}
+
+#title
+{
+
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+.grid-container
+{
+
+	
+	
+}
+
+img
+{
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+
+}
+
+
+
+
+/*for the nav Bar*/
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+
+
+
+/*media query*/
+
+@media only screen and (max-width : 1824px) {
+
+
+	#title
+	{
+		font-size: 6em;
+	}
+
+
+}
+
+
+/* iPads (potrait) ----------- */
+@media only screen and (max-width : 1024px) {
+
+	img
+	{
+
+		width: 40%;
+		float: left;
+		margin: 5%;
+	}
+
+
+
+	ul {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    width: 200px;
+	    background-color: black;
+	    width: 100%;
+	}
+
+	li a {
+	    display: block;
+	    color: white;
+	    padding: 8px 16px;
+	    text-decoration: none;
+		}
+
+	/* Change the link color on hover */
+	li a:hover {
+	    background-color: #555;
+	    color: black;
+
+
+
+}
+
+
+@media only screen and (max-width : 360px) {
+
+	
+	#title
+	{
+		font-size: 1em;
+	}
+
+	img
+	{
+
+		width: 80%;
+		float: left;
+		margin: 8%;
+	}
+
+
+}
+
+

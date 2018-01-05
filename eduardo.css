@@ -1,0 +1,299 @@
+body
+{
+	/*margin-top: 0em;*/
+	margin: 0;
+	/*margin-bottom: 1em;*/
+	/*background: linear-gradient(hsla(121, 78%, 57%, 0.54), white);*/
+	/*height: 100%;*/
+	/*background: linear-gradient(to bottom, #1c92d2, #f2fcfe);*/
+	background: linear-gradient(to bottom, #f2fcfe,#1c92d2 );
+	/*background-repeat: no-repeat;*/
+	/*background-attachment: fixed;*/
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.2em;
+}
+/*for the top image*/
+.backgroundDiv
+{
+	height: 10em;
+	/*width: 100%;*/
+	display: block;
+
+	background: url("http://www.pngmart.com/files/3/Welcome-PNG-Picture.png");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-attachment: fixed;
+	background-position: top ;
+
+
+
+}
+
+h1:hover
+{
+	color: white;
+	font-size: 1.8em;
+}
+
+#title 
+{
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+#title:hover { 
+	color: white;
+	font-size: 4em;
+}
+
+li
+{
+
+	list-style: none;
+}
+
+li:hover { 
+	color: white;
+	font-size: 1.7em;
+}
+
+div
+{
+	display: inline-block;
+	margin-right: 20em;
+	margin-left: 20em;
+}
+
+p
+{
+	text-align: left;
+}
+
+p:hover { 
+	color: white;
+	font-size: 1.7em;
+}
+
+img
+{
+
+	float: right;
+	width: 25%;
+	height: 25%
+
+}
+
+img:hover
+{
+	float: right;
+	width: 50%;
+	height: 50%
+}
+
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navLi {
+    float: left;
+}
+
+.navLi a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navLi a:hover {
+    background-color: #111;
+}
+
+
+
+/*for media query*/
+
+/* Desktops and laptops ----------- */
+@media only screen and (max-width : 1824px) {
+
+
+	#title{
+		font-size: 3em;
+	}
+
+
+}
+
+
+
+/* iPads (potrait) ----------- */
+/*THIS ONE WORKS FINEEE LOORRDDD.*/
+@media only screen and (max-width : 1024px) {
+
+
+	#title 
+	{
+		margin-right: 10%;
+		text-align: center;
+		/*text-transform: lowercase;*/
+		/*margin-right: 50%;*/
+		font-size: 2em;
+	}
+
+	img
+	{
+		margin-left: 55%;
+		margin-right: 40%;
+		height: 25%;
+		width: 40%
+
+
+	}
+
+	p{
+
+
+		margin-left: 25%;
+		margin-right: 37%;
+		font-size: 1.3em;
+		text-align: left;
+		/*float: left;*/
+
+
+	}
+
+	#content
+	{	
+
+		margin-left: 25%;
+		margin-right: 25%;
+		display: inline;
+	}
+
+
+
+	h1
+	{
+		margin-right: 25%;
+		text-align: center;
+
+	}
+
+	ul
+	{
+		margin-right: 25%;
+		text-align: center;
+		font-size: 1.2em;
+	}
+
+
+	ol
+	{
+		margin-right: 25%;
+		text-align: center;
+		font-size: 1.2em;
+	}
+
+
+}
+
+
+
+
+/* Smartphones (portrait) (ie: Galaxy 1) */
+@media only screen and (max-width : 640px) {
+
+	html{
+		height: 100%;
+	}
+
+	body{
+	height: 100%;
+    margin: 0;
+	background: linear-gradient(to bottom, #f2fcfe,#1c92d2 );
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+
+	}
+
+
+
+
+	#title 
+	{
+
+		text-align: center;
+		/*text-transform: lowercase;*/
+		font-size: 25px;
+		margin-left: 25%;
+	}
+
+
+
+	img
+	{
+		
+		margin-right: 45%;
+		height: 25%;
+		width: 25%;
+
+	}
+
+	h1
+	{
+		text-align: center;
+		text-transform: lowercase;
+		font-size: 25px;
+	}
+
+	p
+	{
+		margin-left: 30%;
+		margin-right: 20%;
+		font-size: 15px;
+		text-align: center;
+
+	}
+
+	img
+	{
+		float:none;
+	}
+
+	/*ul*/
+	#nav 
+	{
+		list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    width: 200px;
+	    background-color: #f1f1f1;
+
+	}
+
+
+	.navLi a
+	{	
+		display: block;
+	    color: #000;
+	    padding: 8px 16px;
+	    text-decoration: none;
+	}
+
+
+	#content
+	{
+		display: inline;
+	}
+
+
+
+
+}
